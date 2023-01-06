@@ -19,6 +19,9 @@ module.exports = {
         veryPaleRed: 'hsl(13, 100%, 96%)',
         veryLightGray: 'hsl(0, 0%, 98%)',
         gray: 'rgb(230,230,230)',
+      },
+      margin: {
+        '200px': '200px',
       }
     },
   },
