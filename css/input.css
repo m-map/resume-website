@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-.easter-egg {
-    background: lime;
+.easter {
+    display:flex;
+    margin-top:300px;
+    pointer-events: none;
+}
+.easter .egg {
+    display:flex;
+    justify-content: right;
+    right:0px;
+    pointer-events:all;
+}
+.easter .tooltip {
+    background-color: gray;
+    color: white;
+    width: 200px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 5px;
+    opacity:0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.easter:hover .tooltip{
+    opacity:1;
+
+}
+
+
+.about-me {
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin: 4rem auto;
+    max-width: 700px;
+
+
 }
