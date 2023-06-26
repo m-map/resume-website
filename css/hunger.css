@@ -1,0 +1,23 @@
+.carousel__slide{
+    position: absolute;
+    top:0;
+    bottom:0;
+}
+
+.carousel{
+    position:relative;
+    height:400px;
+    width: 40%;
+}
+
+.carousel__track-container{
+    background: lightgreen;
+    padding: 10px;
+    height:100%;
+}
+
+.carousel__track{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
