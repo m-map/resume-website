@@ -1,0 +1,9 @@
+.hunger-information__text{
+    position:relative;
+    height: 350px;
+    width: 100%;
+    pointer-events: none;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}

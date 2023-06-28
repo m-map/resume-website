@@ -648,6 +648,11 @@ video {
   padding-left: 2.5rem;
 }
 
+.june{
+  background: rgba(100, 10, 10, 0);
+  color: rgba(100, 0, 0, 0);
+}
+
 .text-left {
   text-align: left;
 }

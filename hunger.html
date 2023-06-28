@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/hunger.css">
     <title>Hunger at Home</title>
     <style>
       body {
@@ -32,48 +33,54 @@
         <!-- butotn? <a href="" class="p-3 px-6 pt-2 text-whtie bg-brightRed rounded-full baseline">Contact Me</a>-->
         </div>
     </nav>
+    <p class = "june"> hello </p>
 
     <!-- Main -->
     <section id="main">
-        <h1 class="text-white">
-            hunger at home
-        </h1>
-        
-        container flex flex-col md:flex-row  px-6 mx-auto m-10
-        <div class="carousel">
-          <button class="carousel__button carousel__button--left is-hidden">
-            <svg width="24" height="24" class="arrow">
-              <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M 3 9 L 12 0 V 3 L 6 9 L 12 15 V 18 L 3 9">
-                  </path>
-              </g>
-            </svg>
-          </button>
-          <div class="carousel__track-container">
-            <ul class="carousel__track">
-              <li class="carousel__slide current-slide">
-                <img class = "carousel__image" src="img/hunger/one.png" alt="">
-              </li>
-              <li class="carousel__slide">
-                <img class = "carousel__image" src="img/hunger/2.png" alt="">
-              </li>
-              <li class="carousel__slide">
-                <img class = "carousel__image" src="img/hunger/3.png" alt="">
-              </li>
-            </ul>
+        <div class="hunger-information container flex flex-col md:flex-row mx-auto pt-10">
+          <div class="carousel md:w-1/2 ">
+            <button class="carousel__button carousel__button--left is-hidden">
+              <svg width="24" height="24" class="arrow">
+                <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M 3 9 L 12 0 V 3 L 6 9 L 12 15 V 18 L 3 9">
+                    </path>
+                </g>
+              </svg>
+            </button>
+            <div class="carousel__track-container">
+              <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                  <img class = "carousel__image" src="img/hunger/one.png" alt="">
+                </li>
+                <li class="carousel__slide">
+                  <img class = "carousel__image" src="img/hunger/2.png" alt="">
+                </li>
+                <li class="carousel__slide">
+                  <img class = "carousel__image" src="img/hunger/3.png" alt="">
+                </li>
+              </ul>
+            </div>
+            <button class="carousel__button carousel__button--right">
+              <svg width="16" height="24" class="arrow">
+                <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M 11 9 L 2 0 L 2 3 L 8 9 L 2 15 L 2 18 L 11 9">
+                    </path>
+                </g>
+              </svg>  
+            </button>
+            <div class="carousel__nav">
+              <button class="carousel__indicator current-slide"></button>
+              <button class="carousel__indicator"></button>
+              <button class="carousel__indicator"></button>
+            </div>
           </div>
-          <button class="carousel__button carousel__button--right">
-            <svg width="16" height="24" class="arrow">
-              <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M 11 9 L 2 0 L 2 3 L 8 9 L 2 15 L 2 18 L 11 9">
-                  </path>
-              </g>
-            </svg>  
-          </button>
-          <div class="carousel__nav">
-            <button class="carousel__indicator current-slide"></button>
-            <button class="carousel__indicator"></button>
-            <button class="carousel__indicator"></button>
+          <div class="hunger-information__text">
+            <h1 class="w-md text-4xl font-MabryPro md:leading-normal text-left md:text-5xl text-white">
+              Hunger at Home
+            </h1>
+            <p class="w-md text-left text-gray font-serif text-xl" style="margin-bottom:20px;">
+              In my free times and especially over the break, I like to use my privilige of living next to the ocean by taking advantage of it and going into thie oceaeh
+            </p>
           </div>
         </div>
     </section>
