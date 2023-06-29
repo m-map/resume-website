@@ -14,3 +14,11 @@
 .link:hover {
     color: #888888;
 }
+
+.issue__img {
+    margin-bottom: 15px;
+}
+
+.issue {
+    margin-top: 20px;
+}
