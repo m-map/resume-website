@@ -1,6 +1,11 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/input.css">
     <link rel="stylesheet" href="css/writing.css">
@@ -13,27 +18,38 @@
     </style>
   </head>
   <body>
-    <!-- navigation-->
-    <nav class="relative container mx-auto p-6">
-      <!-- flex container -->
-      <div class="flex items-center justify-between">
-        <!-- Logo -->
-        <a href="index.html">
-          <div class="pt-2">
-            <img class = "object-contain h-20" src="img/turtle.png" alt="">
-          </div>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar">
+        <a href="index.html" class="flex flex-row items-center">
+          <img class = "nav__image" src="img/turtle.png" alt="">
+          <p class="nav__head-text">Sam Bai</p>
         </a>
-        <!-- menu -->
-        <div class="hidden md:flex space-x-9 text-white">
-          <a href="about-me.html" class="hover:text-gray">About Me</a>
-          <a href="hobbies.html" class="hover:text-gray">Hobbies</a>
-          <a href="activities.html" class="hover:text-gray">Activties</a>
-          <a href="writing.html" class="hover:text-gray">Writing</a>
-          <a href="hunger.html" class="hover:text-gray">Hunger at Home</a>
+        <ul class="nav__menu">
+          <li class="nav__item">
+            <a href="about-me.html" class="hover:text-gray nav__text">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="hobbies.html" class="hover:text-gray nav__text">Hobbies</a>
+          </li>
+          <li class="nav__item">
+            <a href="activities.html" class="hover:text-gray nav__text">Activties</a>
+          </li>
+          <li class="nav__item">
+            <a href="writing.html" class="hover:text-gray nav__text">Writing</a>
+          </li>
+          <li class="nav__item">
+            <a href="hunger.html" class="hover:text-gray nav__text">Hunger at Home</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
         </div>
-        <!-- butotn? <a href="" class="p-3 px-6 pt-2 text-whtie bg-brightRed rounded-full baseline">Contact Me</a>-->
-        </div>
-    </nav>
+      </nav>
+    </header>
+
 
     <!-- Main -->
     <section id="main">
@@ -58,43 +74,138 @@
 
 
         <!-- writing -->
-        <h1 class="writingHead text-gray">
+        <h1 class="writing__head text-gray">
           Writing
         </h1>
 
-        <div class="writingList">
-          <div class="writingCell text-gray">
+        <div class="writing__list">
+          <div class="writing__cell text-gray">
             <a href="" class="link" target="_blank">Soundings</a>
             <span class="date"> 5/1 </span>
           </div>
-          <div class="writingCell text-gray">
+          <div class="writing__cell text-gray">
             <a href="" class="link" target="_blank">Soundings</a>
             <span class="date"> 5/1 </span>
           </div>
-          <div class="writingCell text-gray">
+          <div class="writing__cell text-gray">
             <a href="" class="link" target="_blank">Soundings</a>
             <span class="date"> 5/1 </span>
           </div>
-          <div class="writingCell text-gray">
+          <div class="writing__cell text-gray">
             <a href="" class="link" target="_blank">Soundings</a>
             <span class="date"> 5/1 </span>
           </div>
-          <div class="writingCell text-gray">
+          <div class="writing__cell text-gray">
             <a href="" class="link" target="_blank">Soundings</a>
             <span class="date"> 5/1 </span>
           </div>
-          <div class="writingCell text-gray">
+          <div class="writing__cell text-gray">
+            <a href="" class="link" target="_blank">Soundings</a>
+            <span class="date"> 5/1 </span>
+          </div>
+          <div class="writing__cell text-gray">
             <a href="" class="link" target="_blank">Soundings</a>
             <span class="date"> 5/1 </span>
           </div>
         </div>
 
 
-        <!-- Soundings -->
+        
+        <!-- Newspaper 2023 -->
+        <h1 class="issue__head text-gray">
+          The Saratoga Falcon 2022-2023
+        </h1>
         <div class="issue__container">
           <div class="issue__grid">
             <div class="issue">
-              <img src="" alt="">
+                <a href="img/writing/newspaper/2023/10-7-22.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/10-7-22.png" alt="October 7, 2022" class = "text-gray issue__img"></a>
+              <h2 class="issue__title">
+                October 7, 2022
+              </h2>
+              <p class="issue__description">
+                Summer construction to begin
+              </p>
+              <p class="issue__description">
+                School should offer more humanities courses
+              </p>
+              <p class="text-s font-MabryPro text-gray mb-4">
+                Getting to know the staff who keep campus running
+              </p>
+            </div>
+            <div class="issue">
+                <a href="img/writing/newspaper/2023/10-28-22.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/10-28-22.png" alt="October 28, 2022" class = "text-gray issue__img"></a>
+              <h2 class="issue__title">
+                October 28, 2022
+              </h2>
+              <p class="issue__description">
+                5 Candidates vie for 3 School Board Positions
+              </p>
+              <p class="issue__description">
+                Library relies on technician's daily diligence
+              </p>
+              <p class="issue__description">
+                Teachers decorate to keep students engaged
+              </p>
+            </div>
+            <div class="issue">
+                <a href="img/writing/newspaper/2023/11-22-22.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/11-22-22.png" alt="November 22, 2022" class = "text-gray issue__img"></a>
+              <h2 class="issue__title">
+                November 22, 2022
+              </h2>
+              <p class="issue__description">
+                Racist quad incident spurs local outrage
+              </p>
+              <p class="issue__description">
+                Programs struggle with raising parental funds
+              </p>
+              <p class="issue__description">
+                Falcons beat Lynbrook 11-6 in senior game win
+              </p>
+            </div>
+            <div class="issue">
+                <a href="img/writing/newspaper/2023/12-16-22.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/12-16-22.png" alt="December 16, 2022" class = "text-gray issue__img"></a>
+              <h2 class="issue__title">
+                December 16, 2022
+              </h2>
+              <p class="issue__description">
+                Spielberg Movie Spotlights School's Past
+              </p>
+              <p class="issue__description">
+                Anti-Racism Task Force rallies to combat racism
+              </p>
+              <p class="issue__description">
+                Junior quarterback's enhanced mindset sparks breakout season
+              </p>
+            </div>
+            <div class="issue">
+                <a href="img/writing/newspaper/2023/2-3-23.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/2-3-23.png" alt="February 3, 2023" class = "text-gray issue__img"></a>
+              <h2 class="issue__title">
+                February 3, 2023
+              </h2>
+              <p class="issue__description">
+                SUFC addresses mental health struggles
+              </p>
+              <p class="issue__description">
+                Engineering lab building renovated
+              </p>
+              <p class="issue__description">
+                Intense storms lead to power outages and school cancellations
+              </p>
+            </div>
+            <div class="issue">
+                <a href="img/writing/newspaper/2023/2-17-23.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/2-17-23.png" alt="February 17, 2023" class = "text-gray issue__img"></a>
+              <h2 class="issue__title">
+                February 17, 2023
+              </h2>
+              <p class="issue__description">
+                Affirmative action draws alumni support
+              </p>
+              <p class="issue__description">
+                Opinion: Superscoring exacerbates inequity in SAT
+              </p>
+              <p class="issue__description">
+                Local landmark preserves Japanese culture and nature
+              </p>
             </div>
           </div>
         </div>
@@ -106,132 +217,17 @@
             </div>
           </div>
         </div>
-        <!-- Newspaper 2023 -->
+        
+        <!-- Soundings -->
         <div class="issue__container">
           <div class="issue__grid">
             <div class="issue">
-              <div class="issue__img">
-                <a href="img/writing/newspaper/2023/10-7-22.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/10-7-22.png" alt="October 7, 2022"></a>
-              </div>
-              <h2 class="text-xl font-MabryPro text-gray mb-4">
-                October 7, 2022
-              </h2>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Summer construction to begin
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                APUSH students compete at the 2022 NHD State championships
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                School should offer more humanities courses
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Getting to know the staff who keep campus running
-              </p>
-            </div>
-            <div class="issue">
-              <div class="issue__img">
-                <a href="img/writing/newspaper/2023/10-28-22.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/10-28-22.png" alt="October 28, 2022"></a>
-              </div>
-              <h2 class="text-xl font-MabryPro text-gray mb-4">
-                October 28, 2022
-              </h2>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                5 Candidates vie for 3 School Board Positions
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                How the district found a new superintendent and high-level staff
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Library relies on technician's daily diligence
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Teachers decorate to keep students engaged
-              </p>
-            </div>
-            <div class="issue">
-              <div class="issue__img">
-                <a href="img/writing/newspaper/2023/11-22-22.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/11-22-22.png" alt="November 22, 2022"></a>
-              </div>
-              <h2 class="text-xl font-MabryPro text-gray mb-4">
-                November 22, 2022
-              </h2>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Racist quad incident spurs local outrage
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Falcons explore cultural cuisines
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Programs struggle with raising parental funds
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Falcons beat Lynbrook 11-6 in senior game win
-              </p>
-            </div>
-            <div class="issue">
-              <div class="issue__img">
-                <a href="img/writing/newspaper/2023/12-16-22.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/12-16-22.png" alt="December 16, 2022"></a>
-              </div>
-              <h2 class="text-xl font-MabryPro text-gray mb-4">
-                December 16, 2022
-              </h2>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Spielberg Movie Spotlights School's Past
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Anti-Racism Task Force rallies to combat racism
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Map students finding interactivity than regular humanities classes
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Junior quarterback's enhanced mindset sparks breakout season
-              </p>
-            </div>
-            <div class="issue">
-              <div class="issue__img">
-                <a href="img/writing/newspaper/2023/2-3-23.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/2-3-23.png" alt="February 3, 2023"></a>
-              </div>
-              <h2 class="text-xl font-MabryPro text-gray mb-4">
-                February 3, 2023
-              </h2>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                SUFC addresses mental health struggles
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Engineering lab building renovated
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Intense storms lead to power outages and school cancellations
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Drama program works to increase student membership
-              </p>
-            </div>
-            <div class="issue">
-              <div class="issue__img">
-                <a href="img/writing/newspaper/2023/2-17-23.pdf" class="link" target="_blank"><img src="img/writing/newspaper/2023/2-17-23.png" alt="February 17, 2023"></a>
-              </div>
-              <h2 class="text-xl font-MabryPro text-gray mb-4">
-                February 17, 2023
-              </h2>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Affirmative action draws alumni support
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Opinion: Superscoring exacerbates inequity in SAT
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Implementation of camera system across the city
-              </p>
-              <p class="text-l font-MabryPro text-gray mb-4">
-                Local landmark remains in preserving Japanese culture and nature
-              </p>
+              <img src="" alt="">
             </div>
           </div>
         </div>
       </div>
     </section>
+    <script src="js/hamburger.js"></script>
   </body>
 </html>

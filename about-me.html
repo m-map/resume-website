@@ -12,27 +12,37 @@
     </style>
   </head>
   <body>
-    <!-- navigation-->
-    <nav class="relative container mx-auto p-6">
-      <!-- flex container -->
-      <div class="flex items-center justify-between">
-        <!-- Logo -->
-        <a href="index.html">
-          <div class="pt-2">
-            <img class = "object-contain h-20" src="img/turtle.png" alt="">
-          </div>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar">
+        <a href="index.html" class="flex flex-row items-center">
+          <img class = "nav__image" src="img/turtle.png" alt="">
+          <p class="nav__head-text">Sam Bai</p>
         </a>
-        <!-- menu -->
-        <div class="hidden md:flex space-x-9 text-white">
-          <a href="about-me.html" class="hover:text-gray">About Me</a>
-          <a href="hobbies.html" class="hover:text-gray">Hobbies</a>
-          <a href="activities.html" class="hover:text-gray">Activties</a>
-          <a href="writing.html" class="hover:text-gray">Writing</a>
-          <a href="hunger.html" class="hover:text-gray">Hunger at Home</a>
+        <ul class="nav__menu">
+          <li class="nav__item">
+            <a href="about-me.html" class="hover:text-gray nav__text">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="hobbies.html" class="hover:text-gray nav__text">Hobbies</a>
+          </li>
+          <li class="nav__item">
+            <a href="activities.html" class="hover:text-gray nav__text">Activties</a>
+          </li>
+          <li class="nav__item">
+            <a href="writing.html" class="hover:text-gray nav__text">Writing</a>
+          </li>
+          <li class="nav__item">
+            <a href="hunger.html" class="hover:text-gray nav__text">Hunger at Home</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
         </div>
-        <!-- butotn? <a href="" class="p-3 px-6 pt-2 text-whtie bg-brightRed rounded-full baseline">Contact Me</a>-->
-        </div>
-    </nav>
+      </nav>
+    </header>
 
     <!-- Main -->
     <section id="main">
@@ -95,5 +105,6 @@
         </a>
       </div>
     </section>
+    <script src="js/hamburger.js"></script>
   </body>
 </html>
