@@ -160,3 +160,10 @@ header{
         left: 0;
     }
 }
+
+.images{
+    position:relative;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}

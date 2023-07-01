@@ -1,6 +1,21 @@
 .hunger-information__text{
-    position:relative;
-    height: 350px;
     width: 100%;
     pointer-events: none;
+}
+
+.hunger__text{
+    max-width: 1000px;
+    margin: 0 auto 80px;
+    padding: 30px;
+}
+
+
+
+.testing{
+    display:none;
+    background-color: pink;
+    margin: 0 auto;
+    justify-content: center;
+    width: 1000px;
+    height: 100px;
 }
