@@ -1,0 +1,10 @@
+.hobby-information__text{
+    width: 100%;
+    pointer-events: none;
+}
+
+.hobby__text{
+    max-width: 1000px;
+    margin: 0 auto 80px;
+    padding: 30px;
+}

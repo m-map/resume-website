@@ -3,6 +3,9 @@
   <head>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/hobby.css">
+    
+    <link rel="stylesheet" href="css/carousel.css">
     <link rel="icon" type="image/png" href="img/turtle.png"/>
     <title>Hobbies</title>
     <style>
@@ -44,62 +47,158 @@
       </nav>
     </header>
     <p class = "june"> hello </p>
+    
+    <p class = "june"> hello </p>
 
     <!-- Main -->
-    <section id="fishing">
-        <h1 class="text-white">
-            fishing origami prob also build keyboard
-        </h1>
-        <p class="p text-white">
-          Althuogh I dont draw often, im often peer pressured by my art friends to participate in inktober. Here are some of my faovrite works!
-        </p>
-        <div class="container flex flex-col md:flex-row  px-6 mx-auto m-10">
-          <div class="flex flex-col mb-30 space-y-6 md:w-3/7" style="margin-right:20px;">
-            <h1 class="w-md text-4xl font-MabryPro md:leading-normal text-left md:text-5xl text-white">
-              Fishing, crabbing, and all things sea
-            </h1>
-            <p class="w-md text-left text-gray font-serif text-xl" style="margin-bottom:20px;">
-              In my free times and especially over the break, I like to use my privilige of living next to the ocean by taking advantage of it and going into thie oceaeh
-            </p>
-          </div>
-          <div class="md:flex md:w-4/7 p-10">
-            <img class="" src="img/fishing.JPG" alt="">
-          </div>
+    <section id="Hobbies">
+      <!-- Fishing -->
+      <div class="hobby-information container flex flex-col md:flex-row mx-auto items-center">
+        <div class="hobby-information__text" style=" margin: 30px; max-width: 400px;">
+          <h1 class="w-md text-4xl font-MabryPro md:leading-normal text-left md:text-5xl text-white">
+            Fishing and Crabbing
+          </h1>
+          <p class="w-md text-left text-gray font-serif text-xl" style="margin-bottom:20px;">
+            In my free times and especially over the break, I like to use my privilige of living next to the ocean by taking advantage of it and going into thie oceaeh
+          </p>
         </div>
-    </section>
-    
-    <section id="orgami" style="margin-top:70px;">
-      <div class="container flex flex-col-reverse md:flex-row  px-6 mx-auto m-10">
-        <div class="md:flex md:w-1/2 p-10" style="margin-right:20px;">
-          <div class="carousel">
-            <button class="carousel-button prev">&#8656;</button>
-            <button class="carousel-button next">&#8658;</button>
-            <ul>
-              <li class="slide">
-                <img src="https://source.unsplash.com/78A265wPiO4" alt="Nature Image #1">
+        <div class="md:w-1/2 ">
+          <img class = "images" src="img/fishing.JPG" alt="">
+        </div>
+      </div>
+
+      <!-- Origami -->
+      <div class="hobby-information container flex flex-col md:flex-row mx-auto items-center">
+        <div class="carousel md:w-1/2 ">
+          <button class="carousel__button carousel__button--left is-hidden">
+            <svg width="24" height="24" class="arrow">
+              <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M 3 9 L 12 0 V 3 L 6 9 L 12 15 V 18 L 3 9">
+                  </path>
+              </g>
+            </svg>
+          </button>
+          <div class="carousel__track-container">
+            <ul class="carousel__track">
+              <li class="carousel__slide current-slide">
+                <img class = "carousel__image" src="img/hunger/one.png" alt="">
               </li>
-              <li class="slide">
-                <img src="https://source.unsplash.com/eOpewngf68w" alt="Nature Image #2">
+              <li class="carousel__slide">
+                <img class = "carousel__image" src="img/hunger/2.png" alt="">
               </li>
-              <li class="slide">
-                <img src="https://source.unsplash.com/ndN00KmbJ1c" alt="Nature Image #3">
+              <li class="carousel__slide">
+                <img class = "carousel__image" src="img/hunger/3.png" alt="">
               </li>
             </ul>
           </div>
+          <button class="carousel__button carousel__button--right">
+            <svg width="16" height="24" class="arrow">
+              <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M 11 9 L 2 0 L 2 3 L 8 9 L 2 15 L 2 18 L 11 9">
+                  </path>
+              </g>
+            </svg>  
+          </button>
+          <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+          </div>
         </div>
-        <div class="flex flex-col mb-30 space-y-6 md:w-3/5">
+        <div class="hunger-information__text">
           <h1 class="w-md text-4xl font-MabryPro md:leading-normal text-left md:text-5xl text-white">
-            origami adventure
+            Origami
           </h1>
           <p class="w-md text-left text-gray font-serif text-xl" style="margin-bottom:20px;">
-            i like folding origami
+            I do really like folding origami lol :D
           </p>
         </div>
       </div>
-  </section>
+
+      <!-- Rocketry -->
+      <div class="hobby-information container flex flex-col md:flex-row mx-auto items-center">
+        <div class="hobby-information__text" style=" margin: 30px; max-width: 400px;">
+          <h1 class="w-md text-4xl font-MabryPro md:leading-normal text-left md:text-5xl text-white">
+            Rocketry
+          </h1>
+          <p class="w-md text-left text-gray font-serif text-xl" style="margin-bottom:20px;">
+            In my free times and especially over the break, I like to use my privilige of living next to the ocean by taking advantage of it and going into thie oceaeh
+          </p>
+        </div>
+        <div class="md:w-1/2 ">
+          <img class = "images" src="img/fishing.JPG" alt="">
+        </div>
+      </div>
+
+      <!-- Inktober -->
+      <div class="hobby-information container flex flex-col md:flex-row mx-auto items-center">
+        <div class="carousel md:w-1/2 ">
+          <button class="carousel__button carousel__button--left is-hidden">
+            <svg width="24" height="24" class="arrow">
+              <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M 3 9 L 12 0 V 3 L 6 9 L 12 15 V 18 L 3 9">
+                  </path>
+              </g>
+            </svg>
+          </button>
+          <div class="carousel__track-container">
+            <ul class="carousel__track">
+              <li class="carousel__slide current-slide">
+                <img class = "carousel__image" src="img/hunger/one.png" alt="">
+              </li>
+              <li class="carousel__slide">
+                <img class = "carousel__image" src="img/hunger/2.png" alt="">
+              </li>
+              <li class="carousel__slide">
+                <img class = "carousel__image" src="img/hunger/3.png" alt="">
+              </li>
+            </ul>
+          </div>
+          <button class="carousel__button carousel__button--right">
+            <svg width="16" height="24" class="arrow">
+              <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M 11 9 L 2 0 L 2 3 L 8 9 L 2 15 L 2 18 L 11 9">
+                  </path>
+              </g>
+            </svg>  
+          </button>
+          <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+          </div>
+        </div>
+        <div class="hunger-information__text">
+          <h1 class="w-md text-4xl font-MabryPro md:leading-normal text-left md:text-5xl text-white">
+            Inktober
+          </h1>
+          <p class="w-md text-left text-gray font-serif text-xl" style="margin-bottom:20px;">
+            Althuogh I dont draw often, im often peer pressured by my art friends to participate in inktober. Here are some of my faovrite works!
+          </p>
+        </div>
+      </div>
+
+      <!-- Keyboard -->
+      <div class="hobby-information container flex flex-col md:flex-row mx-auto items-center">
+        <div class="hobby-information__text" style=" margin: 30px; max-width: 400px;">
+          <h1 class="w-md text-4xl font-MabryPro md:leading-normal text-left md:text-5xl text-white">
+            I like Keyboards
+          </h1>
+          <p class="w-md text-left text-gray font-serif text-xl" style="margin-bottom:20px;">
+            keyboard,
+          </p>
+        </div>
+        <div class="md:w-1/2 ">
+          <img class = "images" src="img/fishing.JPG" alt="">
+          
+          for this, have like two images with one on top of the others
+        </div>
+      </div>
+
+    </section>
     
-        <!-- Origami -->
 
     <script src="js/hamburger.js"></script>
+    <script src="js/carousel.js"></script>
   </body>
 </html>
