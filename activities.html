@@ -3,6 +3,10 @@
   <head>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/carousel2.css">
+    <link rel="stylesheet" href="css/hobby.css">
+    <link rel="stylesheet" href="css/activity.css">
     <link rel="icon" type="image/png" href="img/turtle.png"/>
     <title>Activities</title>
     <style>
@@ -47,10 +51,184 @@
 
     <!-- Main -->
     <section id="main">
-        <h1 class="text-white">
-            prob rocketry robotics usaco fma
-        </h1>
+      <div class="text">
+        <!--who am i-->
+        <div class="flex flex-col mb-30 space-y-6 md:w-full mx-6">
+          <h1 class="w-md text-4xl font-MabryPro md:leading-normal text-left md:text-5xl text-white">
+            Competitions
+          </h1>
+          <p class="w-md text-left text-gray font-serif text-xl">
+            Rocketry, usaco, fma, robotics oairsent oairesnto iaresntoiaersntoiaer nstoi aernstoiaernst oiarenst oiaersnto airesnto airesnt oarsnetoia rsentoairestn oairetn oirent oairesnt oarisetn oariet noairtn
+          </p>
+          <div class="hobby-information container flex flex-col md:flex-row mx-auto items-center" style=" padding-top: 20px;">
+            <div class="carousel md:w-1/2 ">
+              <button class="carousel__button carousel__button--left is-hidden">
+                <svg width="24" height="24" class="arrow">
+                  <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M 3 9 L 12 0 V 3 L 6 9 L 12 15 V 18 L 3 9">
+                      </path>
+                  </g>
+                </svg>
+              </button>
+              <div class="carousel__track-container">
+                <ul class="carousel__track">
+                  <li class="carousel__slide current-slide">
+                    <img class = "carousel__image" src="img/hunger/one.png" alt="">
+                  </li>
+                  <li class="carousel__slide">
+                    <img class = "carousel__image" src="img/hunger/2.png" alt="">
+                  </li>
+                  <li class="carousel__slide">
+                    <img class = "carousel__image" src="img/hunger/3.png" alt="">
+                  </li>
+                </ul>
+              </div>
+              <button class="carousel__button carousel__button--right">
+                <svg width="16" height="24" class="arrow">
+                  <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M 11 9 L 2 0 L 2 3 L 8 9 L 2 15 L 2 18 L 11 9">
+                      </path>
+                  </g>
+                </svg>  
+              </button>
+              <div class="carousel__nav">
+                <button class="carousel__indicator-2 current-slide"></button>
+                <button class="carousel__indicator-2"></button>
+                <button class="carousel__indicator-2"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="august"></p>
+
+        <!-- Clubs -->
+        <div class="hobby-information__text" style="padding-top: 50px;">
+          <h1 class="w-md text-4xl font-MabryPro md:leading-normal text-left md:text-5xl text-white">
+            High School Clubs
+          </h1>
+        </div>
+        <div class="hobby-information container flex flex-col md:flex-row mx-auto items-center">
+          <div class="carousel-2 md:w-1/2 ">
+            <button class="carousel__button-2 carousel__button--left-2 is-hidden-2">
+              <svg width="24" height="24" class="arrow">
+                <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M 3 9 L 12 0 V 3 L 6 9 L 12 15 V 18 L 3 9">
+                    </path>
+                </g>
+              </svg>
+            </button>
+            <div class="carousel__track-container-2">
+              <ul class="carousel__track-2">
+                <li class="carousel__slide-2 current-slide-2">
+                  <div class="hobby-information container flex flex-col md:flex-row mx-auto">
+                    <div class="hobby-information__text club__text" style=" max-width: 400px;">
+                      <h1 class="club__title">
+                        TEDx Club
+                      </h1>
+                      <p class="club__description">
+                        I was head outreach 2021-2022, head social media 2022-2023, and am now president 2024, we have done m
+                      </p>
+                    </div>
+                    <div class="md:w-1/2 hobby__image"style="min-width: 300px;">
+                      <img class = "images" src="img/hunger/one.png" alt="">
+                    </div>
+                  </div>
+                </li>
+                <li class="carousel__slide-2">
+                  <div class="hobby-information container flex flex-col md:flex-row mx-auto">
+                    <div class="hobby-information__text club__text" style=" max-width: 400px;">
+                      <h1 class="club__title">
+                        TEDx Club
+                      </h1>
+                      <p class="club__description">
+                        I was head outreach 2021-2022, head social media 2022-2023, and am now president 2024, we have done m
+                      </p>
+                    </div>
+                    <div class="md:w-1/2 hobby__image"style="min-width: 300px;">
+                      <img class = "images" src="img/hunger/2.png" alt="">
+                    </div>
+                  </div>
+                </li>
+                <li class="carousel__slide-2">
+                  <div class="hobby-information container flex flex-col md:flex-row mx-auto">
+                    <div class="hobby-information__text club__text" style=" max-width: 400px;">
+                      <h1 class="club__title">
+                        TEDx Club
+                      </h1>
+                      <p class="club__description">
+                        I was head outreach 2021-2022, head social media 2022-2023, and am now president 2024, we have done m
+                      </p>
+                    </div>
+                    <div class="md:w-1/2 hobby__image"style="min-width: 300px;">
+                      <img class = "images" src="img/hunger/3.png" alt="">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <button class="carousel__button-2 carousel__button--right-2">
+              <svg width="16" height="24" class="arrow">
+                <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M 11 9 L 2 0 L 2 3 L 8 9 L 2 15 L 2 18 L 11 9">
+                    </path>
+                </g>
+              </svg>  
+            </button>
+            <div class="carousel__nav-2">
+              <button class="carousel__indicator-2 current-slide-2"></button>
+              <button class="carousel__indicator-2"></button>
+              <button class="carousel__indicator-2"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- links -->
+      <div style="display:flex; align-items:center; justify-content:space-between; margin:auto; width:150px; padding-bottom:80px;">
+        <!-- linked in -->
+        <a target="_blank" rel="noopener. norefrerrer" href="https://www.linkedin.com/in/sam-bai-546a611b2/" title="LinkedIn">
+          <button>
+            <svg width="24" height="24">
+              <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                </path>
+                <rect x="2" y="9" width="4" height="12">
+                </rect>
+                <circle cx="4" cy="4" r="2">
+                </circle>
+              </g>
+            </svg>
+          </button>
+        </a>
+        <!-- mail -->
+        <a target="_blank" rel="noopener. norefrerrer" href="https://docs.google.com/document/d/18nkLojRDPSPX6PqfMlIdgsxxrpNJOh8j4iZkTo7Qty4/edit?usp=sharing" title="email">
+          <button >
+            <svg width="24" height="24">
+              <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                </path>
+                <polyline points="22,6 12,13 2,6">
+                </polyline>
+              </g>
+            </svg>
+          </button>
+        </a>
+        <!-- resume -->
+        <a target="_blank" rel="noopener. norefrerrer" href="https://youtu.be/dQw4w9WgXcQ" title="resume">
+          <button>
+            <svg width="24" height="24">
+                <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M 4 4 V 4 C 3 4 2 5 2 6 V 22 C 2 23 3 24 4 24 H 16 C 17 24 18 23 18 22 V 11 L 11 4 H 4 C 4 4 4 4 4 4 M 11 4 C 11 10 13 11 18 11 M 5 21 H 12 M 5 18 H 15 M 5 15 H 15 M 5 12 H 15">
+                    </path>
+                </g>
+            </svg>
+          </button>
+        </a>
+      </div>
     </section>
     <script src="js/hamburger.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/carousel2.js"></script>
   </body>
 </html>

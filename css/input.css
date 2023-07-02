@@ -43,12 +43,6 @@
 
 }
 
-.text {
-    max-width: 800px;
-    margin: 0 auto 80px;
-    padding: 30px;
-}
-
 .main__menu{
     text-align: left;
 }
@@ -166,4 +160,10 @@ header{
     height: 350px;
     width: 100%;
     object-fit: cover;
+}
+
+.text {
+    max-width: 800px;
+    margin: 0 auto 80px;
+    padding:30px;
 }

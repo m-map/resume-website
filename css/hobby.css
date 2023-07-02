@@ -8,3 +8,31 @@
     margin: 0 auto 80px;
     padding: 30px;
 }
+
+.image__keyboard-1{
+    
+    height: 350px;
+    z-index: 2;
+    position:absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    object-fit: cover;
+}
+.image__keyboard-2{
+    
+    height: 350px;
+    z-index: 1;
+    position: absolute;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .hobby__image {
+      margin-left: 40px;
+      padding-bottom: 400px;
+    }
+}
+
+.subsection__title {
+    padding-bottom: 10px;
+}

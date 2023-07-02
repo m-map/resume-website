@@ -653,6 +653,24 @@ video {
   color: rgba(100, 0, 0, 0);
 }
 
+.july {
+  background-color: white;
+  margin: 0 auto;
+  justify-content: center;
+  width: 80%;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.august {
+  background-color: white;
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+}
+
 .text-left {
   text-align: left;
 }
